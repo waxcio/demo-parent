@@ -1,8 +1,7 @@
 # demo-parent
-spring boot getting starter demo
+this is the parent module that contains all demo sub sub modules
 
-
-# module to be included in demo
+# spring boot module to be included in demo
  * Dev Tools
  * Web
  * Security: Oauth2
@@ -13,23 +12,26 @@ spring boot getting starter demo
  * Config Server, Discovery, Routing, Circuit Breaker
  * Cloud Messeging: CloudBus, Cloud Streaming, reactive
  
+ # Gitflow Workflow
+ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+ 
  # references
  https://www.tutorialspoint.com/spring_boot/index.htm
  https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/ 
  
  
  # update intelli keymap
- shift-cmd O = open file
- shift-cmd L = reformat
- shift-cmd U = run test
- shift-cmd - = collapse 
- shift-cmd + = expand
- shift-cmd F = find in path
- shift-cmd P = compare from git
- shift-cmd K = commit to git
- cmd-B = decleration
- crt-D = delete line
-change font size = 15 
+ * shift-cmd O = open file
+ * shift-cmd L = reformat
+ * shift-cmd U = run test
+ * shift-cmd - = collapse 
+ * shift-cmd + = expand
+ * shift-cmd F = find in path
+ * shift-cmd P = compare from git
+ * shift-cmd K = commit to git
+ * cmd-B = decleration
+ * crt-D = delete line
+ * change font size = 15 
 
  
  create project > spring initializer 
@@ -53,4 +55,4 @@ change font size = 15
  Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.
  
  
- curl localhost:8080/actuator/health
+ 
