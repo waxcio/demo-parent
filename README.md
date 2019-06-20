@@ -1,3 +1,9 @@
+# vision 
+* to build a demo suites so that we have build prototype and test new technology quickly before migrating to the actual code.
+* can be used for hactackon, POC 
+
+*Welcome to join in, if you are interested too*
+
 # demo-parent
 this is the parent module that contains all demo sub sub modules
 
@@ -10,7 +16,13 @@ this is the parent module that contains all demo sub sub modules
  * Messaging: Camel, RMQ, Kafka, kStream, Websocket
  * I/O: Batch, Mail, Scheduler, Cache.
  * Config Server, Discovery, Routing, Circuit Breaker
- * Cloud Messeging: CloudBus, Cloud Streaming, reactive
+ * Cloud Messeging: CloudBus, Cloud Streaming, reactive // event processing, event bus
+ * blockchain: CORBA?
+ * Progressive web application
+ * stream processing engine: siddhi https://github.com/siddhi-io/siddhi
+ * real time processing: spark?
+ 
+ 
  
  # Gitflow Workflow
  https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
@@ -33,7 +45,7 @@ this is the parent module that contains all demo sub sub modules
  * crt-D = delete line
  * change font size = 15 
 
- 
+ # intellij setup
  create project > spring initializer 
  VCS > import into version control 
  
@@ -55,4 +67,5 @@ this is the parent module that contains all demo sub sub modules
  Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.
  
  
- 
+# install
+$brew install maven-completion
