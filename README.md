@@ -33,6 +33,32 @@ this is the parent module that contains all demo sub sub modules
  * crt-D = delete line
  * change font size = 15 
 
+
+# gitflow branch
+git branch develop
+git push -u origin develop
+
+git flow init
+
+# Creating a feature branch
+git flow feature start feature_branch
+
+# Finishing a feature branch
+git flow feature finish feature_branch
+
+# Release Branches
+$ git flow release start 0.1.0
+Switched to a new branch 'release/0.1.0'
+
+$ git flow release finish '0.1.0'
+
+# Hotfix Branches
+$ git flow hotfix start hotfix_branch
+$ git flow hotfix finish hotfix_branch
+
+[https://www.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg]
+
+
  
  create project > spring initializer 
  VCS > import into version control 
@@ -53,6 +79,8 @@ this is the parent module that contains all demo sub sub modules
  The entry point of the spring boot application is the class contains @SpringBootApplication annotation and the main method.
  
  Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.
+ 
+ 
  
  
  
