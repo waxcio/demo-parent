@@ -1,9 +1,3 @@
-# vision 
-* to build a demo suites so that we have build prototype and test new technology quickly before migrating to the actual code.
-* can be used for hactackon, POC 
-
-*Welcome to join in, if you are interested too*
-
 # demo-parent
 this is the parent module that contains all demo sub sub modules
 
@@ -16,13 +10,7 @@ this is the parent module that contains all demo sub sub modules
  * Messaging: Camel, RMQ, Kafka, kStream, Websocket
  * I/O: Batch, Mail, Scheduler, Cache.
  * Config Server, Discovery, Routing, Circuit Breaker
- * Cloud Messeging: CloudBus, Cloud Streaming, reactive // event processing, event bus
- * blockchain: CORBA?
- * Progressive web application
- * stream processing engine: siddhi https://github.com/siddhi-io/siddhi
- * real time processing: spark?
- 
- 
+ * Cloud Messeging: CloudBus, Cloud Streaming, reactive
  
  # Gitflow Workflow
  https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
@@ -45,7 +33,33 @@ this is the parent module that contains all demo sub sub modules
  * crt-D = delete line
  * change font size = 15 
 
- # intellij setup
+
+# gitflow branch
+git branch develop
+git push -u origin develop
+
+git flow init
+
+# Creating a feature branch
+git flow feature start feature_branch
+
+# Finishing a feature branch
+git flow feature finish feature_branch
+
+# Release Branches
+$ git flow release start 0.1.0
+Switched to a new branch 'release/0.1.0'
+
+$ git flow release finish '0.1.0'
+
+# Hotfix Branches
+$ git flow hotfix start hotfix_branch
+$ git flow hotfix finish hotfix_branch
+
+[https://www.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg]
+
+
+ 
  create project > spring initializer 
  VCS > import into version control 
  
@@ -67,5 +81,6 @@ this is the parent module that contains all demo sub sub modules
  Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.
  
  
-# install
-$brew install maven-completion
+ 
+ 
+ 
