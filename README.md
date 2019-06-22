@@ -14,15 +14,18 @@
  - I/O: Batch, Mail, Scheduler, Cache.
  - Config Server, Discovery, Routing, Circuit Breaker
  - Cloud Messeging: CloudBus, Cloud Streaming, reactive
+ - integration with slack, salesforces, line, grab, facebook, 2c2p payment, steller?
  
- # top open source projects
+ # most active open source projects
  - mockito 
  - rxjava
  - design patterns
  - google guava
- - awesome-java
+ - apache common
+ - elasticsearh
  - siddhi
  - event bus
+ - awesome-java
  
  # Spring book tutorial
 [](https://www.tutorialspoint.com/spring_boot/index.htm)
