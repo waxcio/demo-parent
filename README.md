@@ -1,3 +1,5 @@
+at master
+
  # about this project
  - this is the parent module that contains all demo sub sub modules
 
@@ -15,7 +17,7 @@
  - Config Server, Discovery, Routing, Circuit Breaker
  - Cloud Messeging: CloudBus, Cloud Streaming, reactive
  - integration with slack, salesforces, line, grab, facebook, 2c2p payment
- - blockchain: settler, ipfs, hyperledger, codra?
+ - blockchain: settler, ipfs, hyperledger, codra
  
  # spring 
  - spring boot 2.0 reactor
