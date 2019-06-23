@@ -19,7 +19,7 @@ at master
  - integration with slack, salesforces, line, grab, facebook, 2c2p payment
  - blockchain: settler, ipfs, hyperledger, codra
  
- # spring 
+ # spring   
  - spring boot 2.0 reactor
  - spring cloud
  - spring data flow
