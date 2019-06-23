@@ -1,4 +1,4 @@
-package io.waxc.demo.webstarter;
+package io.waxc.demo.webstarter.controller;
 
 import java.util.ArrayList;
 import java.util.List;
