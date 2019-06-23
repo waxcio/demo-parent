@@ -14,7 +14,13 @@
  - I/O: Batch, Mail, Scheduler, Cache.
  - Config Server, Discovery, Routing, Circuit Breaker
  - Cloud Messeging: CloudBus, Cloud Streaming, reactive
- - integration with slack, salesforces, line, grab, facebook, 2c2p payment, steller?
+ - integration with slack, salesforces, line, grab, facebook, 2c2p payment
+ - blockchain: settler, ipfs, hyperledger, codra?
+ 
+ # spring 
+ - spring boot 2.0 reactor
+ - spring cloud
+ - spring data flow
  
  # most active open source projects
  - mockito 
