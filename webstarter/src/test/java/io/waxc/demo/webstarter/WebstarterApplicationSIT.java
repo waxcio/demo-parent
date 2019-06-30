@@ -36,7 +36,7 @@ public class WebstarterApplicationSIT {
     public void getHello() throws Exception {
         ResponseEntity<String> response = template.getForEntity(base.toString(),
                 String.class);
-        assertThat(response.getBody(), equalTo("Hello World"));
+        assertThat(response.getBody(), equalTo("demoservice"));
     }
 
 

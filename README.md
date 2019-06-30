@@ -1,5 +1,4 @@
- worked on features local only 
- # about this project
+  # about this project
  - this is the parent module that contains all demo sub sub modules
 
  # setting license type
@@ -18,13 +17,13 @@
  - integration with slack, salesforces, line, grab, facebook, 2c2p payment
  - blockchain: settler, ipfs, hyperledger, codra?
  
- # spring 
+ # spring framework 
  - spring boot 2.0 reactor
  - spring cloud
  - spring data flow
  
  # most active open source projects
- - mockito 
+ - mockito
  - rxjava
  - design patterns
  - google guava
@@ -47,6 +46,8 @@
  - shift-cmd F = find in path
  - shift-cmd P = compare from git
  - shift-cmd K = commit to git
+ - shift-cmd I = optimize import
+ - shift-cmd N = new file
  - cmd-B = decleration
  - crt-D = delete line
  - change font size = 14
@@ -55,29 +56,22 @@
 
 
  # installing theme
+ * material theme UI
  * visual studio code dark plus theme
 
  # using Gitflow Workflow
 
 ![*](https://www.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg) 
  
- `git branch develop` // gitflow branch
-
- `git push -u origin develop`
- 
- `git flow init`
-
- `git flow feature start feature_branch` // Creating a feature branch 
-
- `git flow feature finish feature_branch` // Finishing a feature branch
-
- `git flow release start 0.1.0` // Release Branches
-
- `git flow release finish '0.1.0'` //Switched to a new branch 'release/0.1.0'
- 
- `git flow hotfix start hotfix_branch` //Hotfix Branches
-
- `$ git flow hotfix finish hotfix_branch`
+    git branch develop // gitflow branch
+    git push -u origin develop
+    git flow init
+    git flow feature start feature_branch // Creating a feature branch    
+    git flow feature finish feature_branch // Finishing a feature branch
+    git flow release start 0.1.0 // Release Branches
+    git flow release finish '0.1.0' //Switched to a new branch 'release/0.1.0'
+    git flow hotfix start hotfix_branch //Hotfix Branches
+    git flow hotfix finish hotfix_branch
 
  # spring boot
  create project > spring initializer 
@@ -90,12 +84,19 @@
  2. Create a resource controller
  * define @RestController
  * define @RequestMapping("/greeting")\
- * @RequestParam binds the value of the query string parameter name into the name parameter of method.
+ * @ binds the value of the query string parameter name into the name parameter of method.
  
  Spring Boot automatically configures your application based on the dependencies you have added to the project by using @EnableAutoConfiguration annotation. 
  The entry point of the spring boot application is the class contains @SpringBootApplication annotation and the main method. 
  Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.
+
+# build 
+mvn clean install
  
+ # run the application
+    java -jar ./webstarter/target/webstarter-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
+    java -jar ./webstarter/target/webstarter-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+
  
  
  
