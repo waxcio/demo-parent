@@ -6,7 +6,7 @@
  
  # including spring boot module:
  - Dev Tools
- - Web
+ - Web , how about providing GraphQL?
  - Security: Oauth2
  - SQL: MySQL, JPA, JDBC, Flyway Migration
  - NOSQL: Redis, MongoDB, ElasticSearch
