@@ -1,9 +1,11 @@
 package io.waxc.demo.webstarter.service;
 
-import io.waxc.demo.webstarter.exception.ProductNotfoundException;
 import io.waxc.demo.webstarter.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.*;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 

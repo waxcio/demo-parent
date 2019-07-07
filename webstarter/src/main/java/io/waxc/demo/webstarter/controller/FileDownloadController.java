@@ -1,4 +1,4 @@
-package io.waxc.demo.webstarter;
+package io.waxc.demo.webstarter.controller;
 
 
 import org.springframework.core.io.InputStreamResource;
