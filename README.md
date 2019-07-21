@@ -1,6 +1,4 @@
-updated on new-feature branch
-
- # about this project
+  # about this project
  - this is the parent module that contains all demo sub sub modules
 
  # setting license type
@@ -8,7 +6,7 @@ updated on new-feature branch
  
  # including spring boot module:
  - Dev Tools
- - Web
+ - Web , how about providing GraphQL?
  - Security: Oauth2
  - SQL: MySQL, JPA, JDBC, Flyway Migration
  - NOSQL: Redis, MongoDB, ElasticSearch
@@ -17,15 +15,15 @@ updated on new-feature branch
  - Config Server, Discovery, Routing, Circuit Breaker
  - Cloud Messeging: CloudBus, Cloud Streaming, reactive
  - integration with slack, salesforces, line, grab, facebook, 2c2p payment
- - blockchain: settler, ipfs, hyperledger, codra
+ - blockchain: settler, ipfs, hyperledger, codra?
  
- # spring   
+ # spring framework 
  - spring boot 2.0 reactor
  - spring cloud
  - spring data flow
  
  # most active open source projects
- - mockito 
+ - mockito
  - rxjava
  - design patterns
  - google guava
@@ -48,6 +46,8 @@ updated on new-feature branch
  - shift-cmd F = find in path
  - shift-cmd P = compare from git
  - shift-cmd K = commit to git
+ - shift-cmd I = optimize import
+ - shift-cmd N = new file
  - cmd-B = decleration
  - crt-D = delete line
  - change font size = 14
@@ -56,29 +56,27 @@ updated on new-feature branch
 
 
  # installing theme
+ * material theme UI
  * visual studio code dark plus theme
 
  # using Gitflow Workflow
 
 ![*](https://www.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg) 
  
- `git branch develop` // gitflow branch
+    git branch develop // gitflow branch
+    git push -u origin develop
+    git flow init
+    git flow feature start feature_branch // Creating a feature branch    
+    git flow feature finish feature_branch // Finishing a feature branch
+    git flow release start 0.1.0 // Release Branches
+    git flow release finish '0.1.0' //Switched to a new branch 'release/0.1.0'
+    git flow hotfix start hotfix_branch //Hotfix Branches
+    git flow hotfix finish hotfix_branch
 
- `git push -u origin develop`
- 
- `git flow init`
+# install xcode-select, otherwise xcrun: error: invalid active developer path
+    $xcode-select --install
 
- `git flow feature start feature_branch` // Creating a feature branch 
 
- `git flow feature finish feature_branch` // Finishing a feature branch
-
- `git flow release start 0.1.0` // Release Branches
-
- `git flow release finish '0.1.0'` //Switched to a new branch 'release/0.1.0'
- 
- `git flow hotfix start hotfix_branch` //Hotfix Branches
-
- `$ git flow hotfix finish hotfix_branch`
 
  # spring boot
  create project > spring initializer 
@@ -91,12 +89,19 @@ updated on new-feature branch
  2. Create a resource controller
  * define @RestController
  * define @RequestMapping("/greeting")\
- * @RequestParam binds the value of the query string parameter name into the name parameter of method.
+ * @ binds the value of the query string parameter name into the name parameter of method.
  
  Spring Boot automatically configures your application based on the dependencies you have added to the project by using @EnableAutoConfiguration annotation. 
  The entry point of the spring boot application is the class contains @SpringBootApplication annotation and the main method. 
  Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.
+
+# build 
+mvn clean install
  
+ # run the application
+    java -jar ./webstarter/target/webstarter-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
+    java -jar ./webstarter/target/webstarter-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+
  
  
  
