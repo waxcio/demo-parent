@@ -12,6 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mail" options="-parameters" />
       <module name="webstarter" options="-parameters" />
     </option>
   </component>
