@@ -1,7 +1,7 @@
   # about this project
  - this is the parent module that contains all demo sub sub modules
 
- # setting intelli keymap
+ # setting intelli keymaps
  - shift-cmd O = open file
  - shift-cmd L = reformat
  - shift-cmd U = run test
