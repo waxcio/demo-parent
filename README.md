@@ -1,6 +1,23 @@
   # about this project
  - this is the parent module that contains all demo sub sub modules
 
+ # setting intelli keymap
+ - shift-cmd O = open file
+ - shift-cmd L = reformat
+ - shift-cmd U = run test
+ - shift-cmd - = collapse 
+ - shift-cmd + = expand
+ - shift-cmd F = find in path
+ - shift-cmd P = compare from git
+ - shift-cmd K = commit to git
+ - shift-cmd I = optimize import
+ - shift-cmd N = new file
+ - cmd-B = decleration
+ - crt-D = delete line
+ - change font size = 14
+ - cmd-9 = version control
+ - cmd-0 = terminal
+
  # setting license type
  - MIT License
  
@@ -15,7 +32,7 @@
  - Config Server, Discovery, Routing, Circuit Breaker
  - Cloud Messeging: CloudBus, Cloud Streaming, reactive
  - integration with slack, salesforces, line, grab, facebook, 2c2p payment
- - blockchain: settler, ipfs, hyperledger, codra?
+ - blockchain: settler, ipfs, hyperledger
  
  # spring framework 
  - spring boot 2.0 reactor
@@ -37,26 +54,9 @@
 [](https://www.tutorialspoint.com/spring_boot/index.htm)
 [](https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/)
  
- # setting intelli keymap
- - shift-cmd O = open file
- - shift-cmd L = reformat
- - shift-cmd U = run test
- - shift-cmd - = collapse 
- - shift-cmd + = expand
- - shift-cmd F = find in path
- - shift-cmd P = compare from git
- - shift-cmd K = commit to git
- - shift-cmd I = optimize import
- - shift-cmd N = new file
- - cmd-B = decleration
- - crt-D = delete line
- - change font size = 14
- - cmd-9 = version control
- - cmd-0 = terminal
 
 
  # installing theme
- * material theme UI
  * visual studio code dark plus theme
 
  # using Gitflow Workflow
