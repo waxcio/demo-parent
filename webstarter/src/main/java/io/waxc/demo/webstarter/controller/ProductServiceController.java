@@ -19,12 +19,6 @@ public class ProductServiceController {
         return new ResponseEntity<>("Product is created successfully", HttpStatus.CREATED);
     }
 
-    @RequestMapping(value = "/products")
-    @CrossOrigin(origins = "http://localhost:8080")
-    public ResponseEntity<Object> getProduct() {
-        return new ResponseEntity<>(productService.getProducts(), HttpStatus.OK);
-    }
-
     @RequestMapping(value = "/products/{id}", method = RequestMethod.PUT)
     public ResponseEntity<Object>
     updateProduct(@PathVariable("id") String id, @RequestBody Product product) {
@@ -36,5 +30,11 @@ public class ProductServiceController {
     public ResponseEntity<Object> delete(@PathVariable("id") String id) {
         productService.deleteProduct(id);
         return new ResponseEntity<>("Product is deleted successsfully", HttpStatus.OK);
+    }
+
+    @RequestMapping(value = "/products")
+    @CrossOrigin(origins = "http://localhost:8080")
+    public ResponseEntity<Object> getProduct() {
+        return new ResponseEntity<>(productService.getProducts(), HttpStatus.OK);
     }
 }

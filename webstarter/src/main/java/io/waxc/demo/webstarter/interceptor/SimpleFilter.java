@@ -6,8 +6,13 @@ import org.springframework.stereotype.Component;
 import javax.servlet.*;
 import java.io.IOException;
 
-
-@Component // filter executed first before loading interceptor
+/*
+A Servlet Filter is used in the web layer only, you can’t use it outside of a web context.
+Interceptors can be used  for authentication of web pages you would use a servlet filter.
+For security stuff in your business layer or logging/bugtracing (a.k.a. independent of the web layer)
+filter executed first before loading interceptor
+*/
+@Component
 public class SimpleFilter implements Filter {
     @Override
     public void destroy() {
