@@ -24,7 +24,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @RestController
 @SpringBootApplication
 @EnableSwagger2
-@EnableScheduling
+//@EnableScheduling
 public class WebstarterApplication implements ApplicationRunner, WebMvcConfigurer {
 
     private static final Logger logger = LoggerFactory.getLogger(WebstarterApplication.class);

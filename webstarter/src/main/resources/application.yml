@@ -19,3 +19,16 @@ spring:
     name: demoservice
 server:
   port: 4431
+
+---
+spring:
+  profiles: ssl
+  application:
+    name: ssl demoservice
+server:
+  port: 443
+  ssl:
+    key-store: keystore.p12
+    key-store-password: waxcio
+    keyStoreType: PKCS12
+    keyAlias: tomcat
