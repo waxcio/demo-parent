@@ -12,6 +12,8 @@
  - shift-cmd K = commit to git
  - shift-cmd I = optimize import
  - shift-cmd N = new file
+ - shift-cmd J = show javadoc
+ - shift-cmd C = find usage
  - cmd-B = decleration
  - crt-D = delete line
  - change font size = 14
@@ -77,6 +79,8 @@
     $xcode-select --install
 
 
+# install software
+* git-tower
 
  # spring boot
  create project > spring initializer 
@@ -95,13 +99,39 @@
  The entry point of the spring boot application is the class contains @SpringBootApplication annotation and the main method. 
  Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.
 
+
+# maven setting.xml to include source and javadoc
+<settings>
+   <!-- ... other settings here ... -->
+    <profiles>
+        <profile>
+            <id>downloadSources</id>
+            <properties>
+                <downloadSources>true</downloadSources>
+                <downloadJavadocs>true</downloadJavadocs>
+            </properties>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>downloadSources</activeProfile>
+    </activeProfiles>
+</settings>
+
 # build 
 mvn clean install
+> maven > download sources and documentation
  
  # run the application
-    java -jar ./webstarter/target/webstarter-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
     java -jar ./webstarter/target/webstarter-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+[](http://localhost:9090)
+    
+    java -jar ./webstarter/target/webstarter-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
+[](http://localhost:4431)
 
+
+    
+    
  
  
  
