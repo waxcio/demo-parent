@@ -31,7 +31,7 @@
 - shift-cmd + = expand all recursively
 - shift-cmd F = find in path
 - shift-cmd P = compare with same repository version
-- shift-cmd K = commit to git
+- shift-cmd K = commit and push, cmd-k = commit only
 - shift-cmd I = optimize import
 - shift-cmd N = new file
 - shift-cmd J = show javadoc
