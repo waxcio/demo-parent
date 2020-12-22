@@ -25,28 +25,41 @@
 # setting intelli keymaps
 
 - shift-cmd O = open file
-- shift-cmd L = reformat // remap
+- shift-cmd L = reformat // remap required
 - shift-cmd T = run test // review
-- shift-cmd - = collapse recursively 
+- shift-cmd - = collapse recursively
 - shift-cmd + = expand all recursively
 - shift-cmd F = find in path
-- shift-cmd P = compare with same repository version
+- shift-cmd P = compare with same repository version // remap required
 - shift-cmd K = commit and push, cmd-k = commit only
-- shift-cmd I = optimize import
+- shift-cmd I = optimize import // remap required
 - shift-cmd N = new file
-- shift-cmd J = show javadoc
-- shift-cmd C = find usage
-- cmd-B = decleration
+- shift-cmd J = quick documentation
+- shift-cmd B = declaration and usage
+- shift-cmd M = terminal panel
 - crt-D = delete line
 - change font size = 14
-- cmd-9 = version control
-- cmd-0 = terminal
+
+Panel 
+- cmd-1 = project 
+- cmd-2 = favorites
+- cmd-3 = Find 
+- cmd-4 = run test
+- cmd-5 = debug
+- cmd-6 = problem
+- cmd-7 = structure
+- cmd-8 = service
+- cmd-9 = changelist
+- cmd-0 = commit
 
 # popular Git command
 
 # Follow MIT computer science tutorial
-
-[MIT 6.00.5 Software Construction](https://courses.edx.org/courses/course-v1:MITx+6.005.1x+3T2016/course/)
+- every engineer should master the basic engineering practices
+  - work in pairs
+  - perform code review 
+  - write test code
+- reference [MIT 6.00.5.1x](https://courses.edx.org/courses/course-v1:MITx+6.005.1x+3T2016/course/)
 
 # setting license type
 
