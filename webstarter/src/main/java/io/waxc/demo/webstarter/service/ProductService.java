@@ -6,7 +6,7 @@ import io.waxc.demo.webstarter.model.Product;
 import java.util.Collection;
 
 /**
- *
+ * demo for productservice
  */
 public interface ProductService {
     void createProduct(Product product);
