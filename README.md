@@ -9,6 +9,13 @@
 - install dev tools: intellij, graphiql, postman, docker, webp viewer, lens, dbeaver
 - install amazon-corretto-15.0.1.9.1-macosx-x64.pkg
 
+# setup parallel keyboard mapping
+  - cmd+left = home
+  - shift+cmd+left = shift+home
+  - cmd+right = end
+  - shift+cmd+right = shift+end
+  - cmd = ctrl
+
 # popular brew package: wget, curl, maven, maven-completion, htop
 
 - brew will install in path /usr/local/bin/
