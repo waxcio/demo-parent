@@ -17,12 +17,18 @@
   - cmd = ctrl
 
 # popular brew package: wget, curl, maven, maven-completion, htop
+- brew cask install iterm2
+  [zsh config] (https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
 
 - brew will install in path /usr/local/bin/
+
 - default path for the version
     - /usr/bin/python 2.7.16
     - /usr/bin/ruby 2.6
     - /usr/bin/java 15
+
+# Path precedent 
+>$PATH /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 # setup intellij
 
