@@ -1,7 +1,9 @@
 # About this Project
 
 - after 20 years of development, I would like to be humble, relearning everything based on the MIT philosophy, being the
-  best engineer!
+  best engineer!  
+  
+- testing on feature branch
 
 # how-to setup development machine (macosx)
 
