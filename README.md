@@ -16,7 +16,7 @@
   - shift+cmd+right = shift+end
   - cmd = ctrl
 
-# popular brew package: wget, curl, maven, maven-completion, htop
+# popular brew package: wget, curl, maven, maven-completion, htop, git-flow
 - brew cask install iterm2
   [zsh config] (https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
 
